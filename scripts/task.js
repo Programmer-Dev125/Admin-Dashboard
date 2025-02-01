@@ -41,7 +41,6 @@ export function handleTask(list) {
                 elem.remove();
               }
             });
-            list.appendChild(isP);
           });
         });
       }
