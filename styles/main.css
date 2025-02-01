@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+html {
+  font-family: "Montserrat", serif;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-center {
+  align-items: center;
+}
+.content-start {
+  align-items: start;
+}
+.content-space-between {
+  justify-content: space-between;
+}
+.content-space-around {
+  justify-content: space-around;
+}
+.content-space-evenly {
+  justify-content: space-evenly;
+}
+input:focus,
+button:focus {
+  outline: none;
+}
+#success-btn,
+#failure-btn,
+#neutral-btn {
+  border: none;
+  padding: 7px 20px;
+  border-radius: 3px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+#success-btn {
+  background-color: #32cd32;
+  color: white;
+}
+#failure-btn {
+  background-color: #f44336;
+  color: white;
+}
+#neutral-btn {
+  background-color: #24a0ed;
+  color: white;
+}
+#neutral-btn.save-btn {
+  background-color: #32cd32;
+  color: white;
+}
+
+.card {
+  background-color: white;
+  box-shadow: 7px 8px 9px #d8d8d8;
+  border-radius: 10px;
+}
+.cursor {
+  cursor: pointer;
+}
+.mr-30 {
+  margin-right: 30px;
+}
+.mr-10 {
+  margin-right: 10px;
+}
+.mr-20 {
+  margin-right: 20px;
+}
+.mt-5 {
+  margin-top: 5px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.mt-50 {
+  margin-top: 50px;
+}
+.mt-120 {
+  margin-top: 120px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.mb-30 {
+  margin-bottom: 30px;
+}
+.p-20 {
+  padding: 20px;
+}
+.p-10 {
+  padding: 10px;
+}
+.w-90 {
+  width: 90% !important;
+}
+.bb {
+  border-bottom: 1px solid lightgray;
+}
